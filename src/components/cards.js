@@ -33,7 +33,7 @@ const HeaderDiv = styled.div`
     .expand-arrow {
         height: 2em;
         width: 2em;
-        margin-right:20px;
+        margin-right: 20px;
         color: #209cee;
         -moz-transition: all 0.4s ease;
         -webkit-transition: all 0.4s ease;
