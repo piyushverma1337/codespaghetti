@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codespaghetti/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/codespaghetti/static/js/main.a1370fe4.chunk.js",
+    "main.js.map": "/codespaghetti/static/js/main.a1370fe4.chunk.js.map",
+    "runtime-main.js": "/codespaghetti/static/js/runtime-main.d49cbfb7.js",
+    "runtime-main.js.map": "/codespaghetti/static/js/runtime-main.d49cbfb7.js.map",
+    "static/js/2.a36f52a0.chunk.js": "/codespaghetti/static/js/2.a36f52a0.chunk.js",
+    "static/js/2.a36f52a0.chunk.js.map": "/codespaghetti/static/js/2.a36f52a0.chunk.js.map",
+    "index.html": "/codespaghetti/index.html",
+    "precache-manifest.da296695e5a5cbcd49ff741fe3430983.js": "/codespaghetti/precache-manifest.da296695e5a5cbcd49ff741fe3430983.js",
+    "service-worker.js": "/codespaghetti/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/codespaghetti/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.a36f52a0.chunk.js.LICENSE.txt": "/codespaghetti/static/js/2.a36f52a0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d49cbfb7.js",
+    "static/js/2.a36f52a0.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.a1370fe4.chunk.js"
+  ]
+}
