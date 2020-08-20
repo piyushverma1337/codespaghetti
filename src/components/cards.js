@@ -21,8 +21,8 @@ const TaleDiv = styled.div`
     margin: 5px 0px;
     border: 1px solid #00000040;
     border-radius: 5px;
+    background-color: ${props => props.collapsed ? "#f6f6f6" : "#ffffff"};
     :hover {
-        /* background-color: #f6f6f6; */
         background-color: #ffffff;
     }
 `;
@@ -76,11 +76,11 @@ export default function Cards() {
         collapsed[i] = !collapsed[i];
         setCollapsed(collapsed);
     };
-
+    
     return (
         <MainDiv>
             {tales.map((tale, i) => (
-                <TaleDiv key={i} onClick={() => collapse(i, collapsed)}>
+                <TaleDiv key={i} onClick={() => collapse(i, collapsed)} collapsed={collapsed[i]}>
                     <HeaderDiv>
                         <h1>{tale.title}</h1>
                         <IoIosArrowForward className={`expand-arrow ${!collapsed[i] ? 'down' : ''}`} />
