@@ -14,13 +14,17 @@ const MainDiv = styled.div`
     /* background-color: pink; */
 `;
 
-const TalesDiv = styled.div`
+const TaleDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 5px 10px;
     margin: 5px 0px;
-    border: 1px solid black;
+    border: 1px solid #00000080;
     border-radius: 5px;
+    :hover {
+        /* background-color: #f6f6f6; */
+        background-color: #ffffff;
+    }
 `;
 
 const HeaderDiv = styled.div`
@@ -76,10 +80,10 @@ export default function Cards() {
     return (
         <MainDiv>
             {tales.map((tale, i) => (
-                <TalesDiv key={i}>
+                <TaleDiv key={i} onClick={() => collapse(i, collapsed)}>
                     <HeaderDiv>
                         <h1>{tale.title}</h1>
-                        <IoIosArrowForward className={`expand-arrow ${!collapsed[i] ? 'down' : ''}`} onClick={() => collapse(i, collapsed)} />
+                        <IoIosArrowForward className={`expand-arrow ${!collapsed[i] ? 'down' : ''}`} />
                     </HeaderDiv>
                     <DetailDiv>
                         <div className="tag date">{tale.date}</div>
@@ -95,7 +99,7 @@ export default function Cards() {
                             })
                         }
                     </div>
-                </TalesDiv>
+                </TaleDiv>
             ))}
         </MainDiv>
     )
