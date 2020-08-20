@@ -15,7 +15,7 @@ const MainDiv = styled.div`
     display: flex;
     flex-direction: column;
     width: 20%;
-    padding: 50px 10px;
+    padding: 50px 10px 0px 10px;
     p {
         margin: 5px !important;
     }

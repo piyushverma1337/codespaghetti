@@ -8,7 +8,7 @@ const MainDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 60%;
+    width: 65%;
     height: calc(100vh - 20px);
     overflow: auto;
     /* background-color: pink; */
@@ -19,7 +19,7 @@ const TaleDiv = styled.div`
     flex-direction: column;
     padding: 5px 10px;
     margin: 5px 0px;
-    border: 1px solid #00000080;
+    border: 1px solid #00000040;
     border-radius: 5px;
     :hover {
         /* background-color: #f6f6f6; */

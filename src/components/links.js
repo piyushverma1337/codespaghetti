@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const MainDiv = styled.div`
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 15%;
   padding: 50px 10px;
 `;
 
